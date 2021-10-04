@@ -32,39 +32,6 @@ header {
   display: none;
 }
 
-.mobile-nav {
-  z-index: 10;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding: 4rem 2rem;
-  display: none;
-  flex-direction: column;
-  background-color: #3c3a39;
-}
-
-.mobile-nav > ul > li {
-  text-align: left;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  color: white;
-  border-bottom: solid 1px #6f6c6b;
-  margin-bottom: 1.5rem;
-}
-
-.mobile-nav--active {
-  display: flex;
-}
-
-.mobile-link {
-  color: white;
-}
-
 #logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -332,8 +299,41 @@ li {
   cursor: pointer;
 }
 
+.mobile-nav > ul > li {
+  text-align: left;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  color: white;
+  border-bottom: solid 1px #6f6c6b;
+  margin-bottom: 1.5rem;
+}
+
 .project-stacks li:hover {
   background: rgba(0, 0, 0, 0.349);
+}
+
+.mobile-nav {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 4rem 2rem;
+  display: none;
+  flex-direction: column;
+  background-color: #3c3a39;
+}
+
+.mobile-nav--active {
+  display: flex;
+}
+
+.mobile-link {
+  color: white;
 }
 
 #about-me,
@@ -465,7 +465,8 @@ textarea {
   align-items: center;
   justify-content: space-around;
   padding: 5vh;
-  filter: invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
+  filter:
+    invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
     brightness(92%) contrast(82%);
 }
 
