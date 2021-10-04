@@ -52,6 +52,13 @@ header {
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
+  color: white;
+  border-bottom: solid 1px #6f6c6b;
+  margin-bottom: 1.5rem;
+}
+
+.mobile-link {
+  color: white;
 }
 
 #logo {
