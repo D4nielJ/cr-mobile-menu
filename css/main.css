@@ -32,7 +32,7 @@ header {
   display: none;
 }
 
-#mobile-nav {
+.mobile-nav {
   z-index: 10;
   position: fixed;
   top: 0;
@@ -40,12 +40,12 @@ header {
   width: 100vw;
   height: 100vh;
   padding: 4rem 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #3c3a39;
 }
 
-#mobile-nav > ul > li {
+.mobile-nav > ul > li {
   text-align: left;
   font-size: 32px;
   font-style: normal;
@@ -55,6 +55,10 @@ header {
   color: white;
   border-bottom: solid 1px #6f6c6b;
   margin-bottom: 1.5rem;
+}
+
+.mobile-nav--active {
+  display: flex;
 }
 
 .mobile-link {
