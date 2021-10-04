@@ -5,14 +5,15 @@ const menuLinks = document.querySelectorAll('.mobile-nav > ul > li');
 
 const myMenuFunction = () => {
   navMenu.classList.toggle('mobile-nav--active');
-  burguerIcon.classList.toggle('menu-bars--active');
-  closeIcon.classList.toggle('x-icon--active');
+  menuBars.classList.toggle('menu-bars--active');
+  menuX.classList.toggle('menu-x--active');
 };
 
-menuIcons.addEventListener('click', () => {
-  toggleMenu();
+menuBars.addEventListener('click', () => {
+  myMenuFunction();
 });
 
-menuLinks.forEach((link) => link.addEventListener('click', () => {
-  toggleMenu();
-}));
+menuLinks.map((link) => link.addEventListener('click', () => {
+    myMenuFunction();
+  })
+);

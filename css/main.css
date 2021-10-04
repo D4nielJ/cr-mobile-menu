@@ -101,6 +101,7 @@ header {
 
 .menu-bars--active,
 .menu-x--active {
+  z-index: 20;
   display: block;
 }
 
