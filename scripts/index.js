@@ -14,6 +14,5 @@ menuBars.addEventListener('click', () => {
 });
 
 menuLinks.map((link) => link.addEventListener('click', () => {
-    myMenuFunction();
-  })
-);
+  myMenuFunction();
+}));
