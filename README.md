@@ -1,6 +1,36 @@
-# curriculum-cr-training-mobile-menu
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# CR Mobile Menu
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+> This is a simple exercise on how to give proper code reviews.
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+## Built With
+
+- HTML, CSS and JavaScript
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Install
+
+- Clone this repo to you local machine
+- Cd to repo folder
+- Run NPM install
+- You're ready!
+  
+## Authors
+
+👤 **D4niel J**
+
+- GitHub: [@D4nielJ](https://github.com/d4nielj)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
