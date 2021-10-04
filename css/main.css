@@ -77,12 +77,31 @@ header {
   background: transparent;
   border: none;
   outline: none;
+  display: none;
 }
 
 .menu-bars i {
   width: 18px;
   height: 12px;
   color: white;
+}
+
+.menu-x {
+  background: transparent;
+  border: none;
+  outline: none;
+  display: none;
+}
+
+.menu-x i {
+  width: 18px;
+  height: 12px;
+  color: white;
+}
+
+.menu-bars--active,
+.menu-x--active {
+  display: block;
 }
 
 main {
