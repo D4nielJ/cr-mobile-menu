@@ -13,6 +13,6 @@ menuBars.addEventListener('click', () => {
   myMenuFunction();
 });
 
-menuLinks.map((link) => link.addEventListener('click', () => {
+menuLinks.forEach((link) => link.addEventListener('click', () => {
   myMenuFunction();
 }));
