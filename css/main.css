@@ -40,6 +40,7 @@ header {
   line-height: 24px;
 }
 
+.menu-x,
 .menu-bars {
   background: transparent;
   border: none;
@@ -47,19 +48,7 @@ header {
   display: none;
 }
 
-.menu-bars i {
-  width: 18px;
-  height: 12px;
-  color: white;
-}
-
-.menu-x {
-  background: transparent;
-  border: none;
-  outline: none;
-  display: none;
-}
-
+.menu-bars i,
 .menu-x i {
   width: 18px;
   height: 12px;
@@ -101,19 +90,30 @@ main {
 
 .card h2 {
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+}
+
+.card h2,
+#about-me h2,
+#projects h2,
+.intro-greet,
+.intro-text,
+.description,
+.white-description,
+li,
+.about-me-text,
+input,
+textarea {
+  font-style: normal;
+  font-weight: normal;
 }
 
 .intro-greet,
 #about-me h2 {
   color: #ff6b00;
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -131,8 +131,6 @@ main {
 
 .intro-text {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -175,8 +173,6 @@ main {
 
 #projects h2 {
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 40px;
   line-height: 52px;
   display: flex;
@@ -216,8 +212,6 @@ main {
 .description,
 .white-description {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 24px;
   color: #fff;
@@ -251,8 +245,6 @@ main {
 li {
   list-style: none;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 43px;
   text-align: center;
@@ -348,8 +340,6 @@ li {
 
 .about-me-text {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -447,8 +437,6 @@ textarea {
 input,
 textarea {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   margin: 5px;
